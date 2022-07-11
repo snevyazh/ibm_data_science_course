@@ -17,28 +17,36 @@ import numpy as np
 # z = np.add(u, v)
 # print(z)
 
-a = [[11, 12, 13], [21, 22, 23], [31, 32, 33]]
-A = np.array(a)
-A.ndim
-A.shape
-A.size
-A[1, 2]
-A[0:2, 2]
+# a = [[11, 12, 13], [21, 22, 23], [31, 32, 33]]
+# A = np.array(a)
+# A.ndim
+# A.shape
+# A.size
+# A[1, 2]
+# A[0:2, 2]
 
 
-X = np.array([[1, 0], [0, 1]]) 
-Y = np.array([[2, 1], [1, 2]])
-Z = X + Y
-P = 2 * Y
-F=X * Y
+# X = np.array([[1, 0], [0, 1]]) 
+# Y = np.array([[2, 1], [1, 2]])
+# Z = X + Y
+# P = 2 * Y
+# F=X * Y
 
-A = np.array([[0, 1, 1], [1, 0, 1]])
-B = np.array([[1, 1], [1, 1], [-1, 1]])
-# multiplication of two matrixes
-Z = np.dot(A,B)
+# A = np.array([[0, 1, 1], [1, 0, 1]])
+# B = np.array([[1, 1], [1, 1], [-1, 1]])
+# # multiplication of two matrixes
+# Z = np.dot(A,B)
 
 
-C = np.array([[1,1],[2,2],[3,3]])
-# Get the transposed of C
-C.T
+# C = np.array([[1,1],[2,2],[3,3]])
+# # Get the transposed of C
+# C.T
+u=np.array([1,2])
+v=np.array([3,2])
+z=u*v
+print(z)
+
+
+x=np.linspace(1,8,3)
+print(x)
 
